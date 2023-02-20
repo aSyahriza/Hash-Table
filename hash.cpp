@@ -41,13 +41,13 @@ void Hash::addStudent(char* pName, int pId, float pGpa){
       nodeCounter++;
     
       current = current->getNext();
-    
+    }
     current->setNext(newNode);
     cout << "Student Added" << endl;
     if(nodeCounter==2){
       reHash(nodeCounter);
     }
-  }
+  }  
 }
 
 void Hash::deleteStudent(int pId){
@@ -116,7 +116,7 @@ void Hash::reHash(int nodeCounter){
         }
         temp->setNext((*k));
       }
-      hashTable.delete[k]
+      reHashVect.erase(k);
     }
   }
   hashTable = newTable;
