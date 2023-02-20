@@ -1,3 +1,15 @@
+/*
+* Author: Allam Syahriza
+* Date: 2/19/23
+* Project: Hash Table
+* Holds students name, id, and gpa using a hash table
+* With help from Daren Kostov
+*
+*
+*
+*/
+
+
 #include <iostream>
 #include <cstring>
 
